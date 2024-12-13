@@ -9,7 +9,7 @@ const Page = () => {
   const handleDragStart = (e) => e.preventDefault();
 
   return (
-    <div className="relative h-[100vh]">
+    <div className="relative h-[200vh]">
       {/* Highlight Carousel */}
       <AliceCarousel
         autoPlay
