@@ -1,10 +1,14 @@
 import React from 'react'
 
-export default function signup() {
+export default function page() {
   return (
-    <div>
-      <h1>qweasdasd</h1>
-      <h1>qweqwe</h1>
+    <div className='text-lg h-[100vh]'>
+      asdnjasdjkas
+      asdnjasdjkas
+      <div className='text-sm bg-black'>
+        ito loob
+      </div>
+
     </div>
   )
 }
