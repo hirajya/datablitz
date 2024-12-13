@@ -49,7 +49,7 @@ export default function Footer() {
           <div className="flex items-center">
             <input type="checkbox" className="mr-2" />
             <span className="text-xs font-light">
-              I want to subscribe to newsletter from DataBlitz. You can unsubscribe anytime. See our <a href="#" className="text-[#f4f4f4]">privacy policy</a>.
+              I want to subscribe to newsletter from Loop. You can unsubscribe anytime. See our <a href="#" className="text-[#f4f4f4]">privacy policy</a>.
             </span>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
 
         <div className="text-center sm:text-left text-xs">
-          <span className="block sm:inline">Copyright ©2024 DataBlitz. All rights reserved</span>
+          <span className="block sm:inline">Copyright ©2024 Loop. All rights reserved</span>
           <span className="hidden sm:inline"> | </span>
           <a href="#" className="text-[#f4f4f4]">Terms of Use</a> |
           <a href="#" className="text-[#f4f4f4]"> Privacy Policy</a> |
