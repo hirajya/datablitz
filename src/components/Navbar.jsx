@@ -27,7 +27,11 @@ export default function Navbar() {
           <ul className="flex space-x-8">
             <li className="hover:text-[#0D3B66] cursor-pointer font-light">Home</li>
             <li className="hover:text-[#0D3B66] cursor-pointer font-light">Featured</li>
+<<<<<<< HEAD
             <li className="hover:text-[#0D3B66] cursor-pointer font-light">Peripherals</li>
+=======
+            <li className="hover:text-[#0D3B66] cursor-pointer font-light">Products</li>
+>>>>>>> origin
             <li className="hover:text-[#0D3B66] cursor-pointer font-light">Games</li>
             <li className="hover:text-[#0D3B66] cursor-pointer font-light">Collectibles</li>
             <li className="hover:text-[#0D3B66] cursor-pointer font-light">Orders</li>

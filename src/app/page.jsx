@@ -1,4 +1,5 @@
 "use client";
+<<<<<<< HEAD
 import React, { useState, useEffect, useRef } from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -43,6 +44,19 @@ const Page = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+=======
+import React from "react";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
+import { images } from "@/utils/homepage/constantsHomepage"; // Adjust your import as needed
+import AssuranceElement from "@/components/homepage/AssuranceElement";
+
+const Page = () => {
+  const handleDragStart = (e) => e.preventDefault();
+
+  return (
+    <div className="relative h-[100vh]">
+>>>>>>> origin
       {/* Highlight Carousel */}
       <AliceCarousel
         autoPlay
@@ -50,24 +64,51 @@ const Page = () => {
         infinite
         renderPrevButton={({ isDisabled }) => (
           <button
+<<<<<<< HEAD
             className={`absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-blue-900 text-white rounded-md p-3 shadow-md hover:bg-blue-700 ${
               isDisabled ? "opacity-50" : ""
             }`}
+=======
+            className={`absolute left-4 top-1/2 transform -translate-y-1/2 z-10 ${
+              isDisabled ? "opacity-50" : ""
+            }`}
+            style={{
+              background: "#0D3B66",
+              color: "#fff",
+              border: "none",
+              borderRadius: "20%",
+              padding: "10px",
+            }}
+>>>>>>> origin
           >
             ◀
           </button>
         )}
         renderNextButton={({ isDisabled }) => (
           <button
+<<<<<<< HEAD
             className={`absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-blue-900 text-white rounded-md p-3 shadow-md hover:bg-blue-700 ${
               isDisabled ? "opacity-50" : ""
             }`}
+=======
+            className={`absolute right-4 top-1/2 transform -translate-y-1/2 z-10 ${
+              isDisabled ? "opacity-50" : ""
+            }`}
+            style={{
+              background: "#0D3B66",
+              color: "#fff",
+              border: "none",
+              borderRadius: "20%",
+              padding: "10px",
+            }}
+>>>>>>> origin
           >
             ▶
           </button>
         )}
       >
         {images.map((image) => (
+<<<<<<< HEAD
           <div
             key={image.id}
             className="h-full relative"
@@ -101,6 +142,16 @@ const Page = () => {
         ))}
       </AliceCarousel>
 
+=======
+          <div key={image.id} className="h-full">
+            <div
+              className="h-[70vh] bg-cover bg-center"
+              style={{ backgroundImage: `url(${image.src})` }}
+            ></div>
+          </div>
+        ))}
+      </AliceCarousel>
+>>>>>>> origin
       <style jsx global>{`
         .alice-carousel__dots {
           position: absolute;
@@ -119,6 +170,7 @@ const Page = () => {
         }
       `}</style>
 
+<<<<<<< HEAD
       {/* Assurance Section */}
       <div className="flex justify-center mt-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-3 pb-10">
@@ -285,6 +337,31 @@ const Page = () => {
               />
             ))}
           </div>
+=======
+      {/* Guarantee Assurance Part */}
+      <div className="flex justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 px-3">
+          <AssuranceElement
+            src="/homepage/AssuranceLogo1.png"
+            title="Your Most Trusted Store"
+            description="100% All Brand New & Original Shop with Confidence."
+          />
+          <AssuranceElement
+            src="/homepage/AssuranceLogo2.png"
+            title="Fast Shipping Nationwide"
+            description="Ships in 24 hours! Express and Same-Day Delivery within Metro Manila!"
+          />
+          <AssuranceElement
+            src="/homepage/AssuranceLogo3.png"
+            title="Save on Loyalty Rewards"
+            description="Sign in to start earning Loyalty Rewards Points!"
+          />
+          <AssuranceElement
+            src="/homepage/AssuranceLogo4.png"
+            title="100% Safe and Secure"
+            description="All Transactions are Fully Encrypted with State of the Art Technology!"
+          />
+>>>>>>> origin
         </div>
       </div>
     </div>

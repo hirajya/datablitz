@@ -14,7 +14,11 @@ export default function AssuranceElement({ src, title, description }) {
 
       {/* Title and Description */}
       <div className="flex flex-col">
+<<<<<<< HEAD
         <h1 className="text-xs font-bold">{title}</h1>
+=======
+        <h1 className="text-sm font-bold">{title}</h1>
+>>>>>>> origin
         <p className="text-xs text-gray-600" style={{ maxWidth: "250px", wordWrap: "break-word" }}>
           {description}
         </p>
