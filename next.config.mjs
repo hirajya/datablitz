@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+// next.config.mjs
+const nextConfig = {
+    images: {
+      domains: ['lh3.google.com','drive.google.com'], // Add the domain for Google images
+    },
+  };
+ 
+  export default nextConfig;

@@ -10,7 +10,11 @@
   },
   "dependencies": {
     "@shadcn/ui": "^0.0.4",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
     "framer-motion": "^11.15.0",
+    "git": "^0.1.5",
+    "mongoose": "^8.9.5",
     "next": "15.0.3",
     "react": "^18.3.1",
     "react-alice-carousel": "^2.9.1",

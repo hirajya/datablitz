@@ -4,5 +4,5 @@ export const imagePaths = [
     "/homepage/brand3.jpg",
     "/homepage/brand4.png",
     "/homepage/brand5.webp",
-    "/homepage/brand6.jpg"
+    "/homepage/brand6.jpg", 
   ];
